@@ -1,0 +1,55 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+# Terraform working directory
+.terraform/
+**/.terraform/
+
+
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# # Variable files containing secrets
+# *.tfvars
+ *.tfvars.json
+
+# # Exception: keep example variables
+# !*.tfvars.example
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+
+# Azure CLI cache
+.azure/
+
+
+# VS Code
+.vscode/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Secrets
+*.pem
+*.key
+*.crt
+.env
